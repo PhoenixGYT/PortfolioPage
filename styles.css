@@ -1,0 +1,145 @@
+/* Generals */
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.roboto-fstyle {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    font-family: Roboto, 'Courier New', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+}
+
+.header, 
+.welcome, 
+.footer{
+    background-color: rgb(83, 83, 209);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Header Styles */
+.header-container{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    flex-wrap: row;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header-logo img{
+    height: 50px;
+    width: 50px;
+    border: black 12px;
+    border-radius: 900px;
+}
+
+.header-logo, 
+.header ul{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Sec 1 */
+.welcome-container{
+    display: flex;
+    width: 100vw;
+    flex-flow: row wrap;
+}
+
+.welcome{
+
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sub{
+    font-size: 18px;
+    color: #F9FAF8
+}
+
+button{
+    background-color: #3882F6;
+    border: #2b75ee 10px;
+    border-radius: 4px;
+    color: #F9FAF8;
+}
+
+/* Sec 2 */
+.character-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character ul{
+    text-align: center;
+    list-style-type: none;
+    display: contents;
+}
+
+.character-header{
+    font-size: 38px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.character-info{
+    display: flex;
+}
+
+/* Sec 3 */
+.pages-container{
+    display: flex;
+}
+
+.pages{
+    background-color: #E5E7EB;
+}
+
+/* Sec 4 */
+.credits-container{
+    display: flex;
+}
+
+.credits{
+
+}
+
+/* Footer */
+.footer-container{
+    display: flex;
+}
+
+.footer{
+
+}
