@@ -37,7 +37,7 @@ body{
     display: flex;
     margin: 0;
     width: 100vw;
-    flex-wrap: row;
+    flex-direction: row;
 }
 
 .header{
@@ -56,6 +56,7 @@ body{
     width: 50px;
     border: black 12px;
     border-radius: 900px;
+
 }
 
 .header-logo, 
@@ -100,6 +101,12 @@ button{
     align-items: center;
 }
 
+.character{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .character ul{
     text-align: center;
     list-style-type: none;
@@ -115,15 +122,73 @@ button{
 
 .character-info{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    margin-left: -50px;
+}
+
+.about-me-list{
+    margin: 0px;
+    margin-left: -50px;
+    align-content: center;
+}
+
+.character-pixel{
+    margin: 0px;
+    margin-left: -50px;
 }
 
 /* Sec 3 */
 .pages-container{
     display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
 }
 
 .pages{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.pheader{
+    text-align: center;
+}
+
+.pbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pbody .aboutme{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.pbody .projects{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.pbody .resume{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 /* Sec 4 */
