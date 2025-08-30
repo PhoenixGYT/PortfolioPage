@@ -52,6 +52,7 @@ body{
     margin: 0;
     padding: 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Header Styles */
@@ -60,6 +61,8 @@ body{
     margin: 0;
     flex-direction: row;
     width: 100vw;
+    height: 10%;
+    position: absolute;
 }
 
 .header{
@@ -103,12 +106,14 @@ body{
     margin: 0;
     flex-direction: row;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .welcome{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 30%;
     padding: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -116,8 +121,8 @@ body{
 }
 
 .welcome .img-holder{
-    width: 514px;
-    height: 200px;
+    width: auto;
+    height: auto;
     margin: 10px;
     padding: 25px;
     border: 5px solid black;
@@ -135,6 +140,7 @@ body{
 .hero-main{
     display: flex;
     flex-direction: column;
+    height: 80%;
     width: 514px;
 }
 
@@ -227,17 +233,20 @@ button{
 /* Sec 3 */
 .pages-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     justify-content: center;
     width: 100vw;
 }
 
 .pages{
     background-color: #E5E7EB;
-    display: flex;
+    display: block;
     flex-direction: column;
+    width: 100%;
+    position: relative;
+    right: -8px;
 }
 
 .pheader{
@@ -326,12 +335,14 @@ button{
     margin: 0;
     justify-content: center;
     width: 100vw;
+    height: 15%;
 }
 
 .footer{
     font-size: x-small;
     color: #F9FAF8;
     padding-bottom: 10px;
+    position: fixed;
 }
 
 .footer ul{
@@ -343,4 +354,16 @@ button{
 
 .footer button{
     font-size: 10px;
+}
+
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow-y: scroll;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    bottom: 15%;
 }
