@@ -107,6 +107,7 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-shrink: 0;
+    width: 100%;
 }
 
 .welcome{
@@ -361,6 +362,7 @@ button{
     display: flex;
     flex-direction: column;
     height: auto;
+    overflow-x: hidden;
     overflow-y: scroll;
     align-items: center;
     position: absolute;
